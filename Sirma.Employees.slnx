@@ -2,6 +2,14 @@
   <Folder Name="/Config/">
     <File Path="README.md" />
   </Folder>
+  <Folder Name="/React/">
+    <File Path="Client/package.json" />
+  </Folder>
+  <Folder Name="/React/src/">
+    <File Path="Client/src/App.css" />
+    <File Path="Client/src/App.jsx" />
+    <File Path="Client/src/index.js" />
+  </Folder>
   <Project Path="Domains/Domains.csproj" />
   <Project Path="Infrastructure/Infrastructure.csproj" />
   <Project Path="Sirma.Employees/Controller.Web.csproj" />
