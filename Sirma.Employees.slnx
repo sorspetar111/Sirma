@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/Config/">
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="Domains/Domains.csproj" />
+  <Project Path="Infrastructure/Infrastructure.csproj" />
+  <Project Path="Sirma.Employees/Controller.Web.csproj" />
+</Solution>
