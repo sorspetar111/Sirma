@@ -1,6 +1,8 @@
 
 
-#install node
+#install node and npm
+#check node, npm
+
 node -v
 
 npm -v
@@ -15,6 +17,7 @@ npm start
 npm install
 
 npm run build
+
 
 
 
