@@ -1,0 +1,18 @@
+{
+	"name": "project-csv-analyzer",
+	"version": "1.0.0",
+	"private": true,
+	"description": "Simple ReactJS app that uploads a CSV and displays API analysis results in a grid.",
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"dependencies": {
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"react-scripts": "5.0.1"
+	},
+	"proxy": "https://localhost:5029"
+}

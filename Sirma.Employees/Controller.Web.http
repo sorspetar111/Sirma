@@ -1,0 +1,6 @@
+@Controller.Web_HostAddress = http://localhost:5029
+
+GET {{Controller.Web_HostAddress}}/api/projects/
+Accept: application/json
+
+###
