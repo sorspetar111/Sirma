@@ -26,7 +26,7 @@ namespace WebApplication1.Controllers
             using var reader = new StreamReader(stream);
             var csvContent = reader.ReadToEnd();
 
-            var employeeProjects = CsvProcessor.DeserializeFromCsv(csvContent);
+            var employeeProjects = CsvSafeProcessor.DeserializeFromCsv(csvContent);
 
             // var employeeProjects = new List<EmployeeProject>();
             // var employeeProjects = CsvExample.DeserializeFromCsv("projectsEmployees.csv");
